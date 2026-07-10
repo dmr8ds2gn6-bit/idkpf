@@ -5,7 +5,6 @@
     Started: 17/04/2025
 ]]--
 
-run_on_thread(getactorthreads()[1], [=[
 if not LPH_OBFUSCATED then
     LPH_JIT = function(...) return ... end
     LPH_JIT_MAX = function(...) return ... end
@@ -18631,4 +18630,3 @@ do
         end
     end)
 end
-]=]);
